@@ -2,6 +2,10 @@
   "name": "imperio-demo",
   "version": "0.1.0",
   "private": true,
+"engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -10,6 +14,8 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "file-loader": "^6.2.0",
+    "framer-motion": "^6.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
